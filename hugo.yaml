@@ -1,6 +1,7 @@
 theme: hugo-story
 relativeURLs: 'true'
-baseURL: /
+canonifyURLs: 'true'
+baseURL: https://gudjao.github.io/wedding/
 publishDir: public
 disableKinds:
   - taxonomy

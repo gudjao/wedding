@@ -9,10 +9,10 @@ theme = "hugo-story"
 ## -----------------------------------------------
 
 relativeURLs = "true"
-#canonifyURLs = "true"
+canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://gudjao.github.io/wedding/"
 publishDir = "public"
 
 # Remote
