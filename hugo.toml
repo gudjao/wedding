@@ -8,12 +8,8 @@ theme = "hugo-story"
 ## Publish
 ## -----------------------------------------------
 
-relativeURLs = "true"
-canonifyURLs = "true"
-
 # Local
 baseURL = "https://gudjao.github.io/wedding/"
-publishDir = "public"
 
 # Remote
 #baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
@@ -34,3 +30,10 @@ disableKinds = ["taxonomy", "section"]
 [Params]
 
 [Params.social]
+
+languageCode = 'en-US'
+title = 'Wedding'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+disableKinds = ['RSS', 'taxonomy', 'term']
+enableGitInfo = true
